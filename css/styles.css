@@ -164,9 +164,9 @@
     letter-spacing: 0.05em;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 590px) {
   .custom-table {
-    font-size: 1.25em;
+    font-size: 1.2em;
   }
     .custom-table .cell {
     padding: 0.1em .5em; 
