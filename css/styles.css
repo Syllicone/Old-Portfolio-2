@@ -134,6 +134,8 @@
     align-items: center;
     animation: jiggle 1.8s infinite cubic-bezier(.36,.07,.19,.97);
   }
+
+
   
   @keyframes jiggle {
     0%   { transform: translateY(0); }
