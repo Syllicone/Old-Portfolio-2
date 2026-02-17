@@ -180,13 +180,16 @@
 }
 
 @media (max-width: 600px) {
+  .background-svg {
+    overflow: visible;
+  }
   .more-box {
-    width: 205px;      /* Increase width */
+    width: 140px;      /* Reduce width for mobile */
     height: 60px;      /* Increase height */
     overflow: visible;
-
+    transform: translateX(-120px);  /* Move left to center on screen */
   }
   .more-item {
-    font-size: 2.1em;  /* Make text bigger */
+    font-size: 1.6em;  /* Make text appropriate size */
   }
 }
